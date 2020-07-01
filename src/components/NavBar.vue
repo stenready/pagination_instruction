@@ -42,5 +42,10 @@ export default {
     color:  forestgreen;
   }
 }
+@media screen and (max-width: 670px) {
+  .email_navbar{
+    display: none;
+  }
+}
 
 </style>
