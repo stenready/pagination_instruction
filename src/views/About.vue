@@ -128,4 +128,16 @@
   background: aliceblue;
   margin-bottom: 1rem;
 }
+@media screen and (max-width: 568px) {
+  .content{
+    flex-direction: column;
+    img{
+      width: 100%;
+      min-height: 170px;
+    }
+    .inner_content{
+      width: 100%;
+    }
+  }
+}
 </style>
